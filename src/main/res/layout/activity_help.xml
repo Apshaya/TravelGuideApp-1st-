@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help"
+    android:background="@drawable/kkk">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="285dp"
+        android:layout_height="463dp"
+        android:layout_marginTop="84dp"
+        android:text="Here are answers to some additional frequently asked questions about the Traveler Guider app
+                                                      Q: How can I find and select Guiders in the app?
+                                                                           A: In the Traveler Guider app, you can browse and select Guiders based on your interests and preferences. Simply navigate to the Guiders section, explore their profiles, and choose a Guider whose expertise aligns with your travel plans. You can then follow their recommendations and seek their guidance throughout your journey.
+                                                                           Q: Can I search for specific locations or destinations within the Traveler Guider app?
+                                                                A: Absolutely! The app allows you to search for specific locations or destinations using the Location bar."
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Help"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
